@@ -4,7 +4,7 @@ Jumping through your filesystem at warp speed.
 
 ## Usage
 
-Basic usage: just run `warp`. The help will be printed. 
+Basic usage: just run `warp`. The help will be printed.
 
 Help is also printed with `warp help`, and `warp help [command]` gives more detail about each of the commands below. Alternatively, run `warp [command] -h`. (Basically, there's lots of ways to show the help, meaning you should stumble upon it pretty easily.)
 
@@ -28,5 +28,4 @@ Move `bin/warptool` to somewhere in your path. Then somehow insert the `warp` fu
 
 - Test in bash, etc.
 - Test on anything that's not macOS.
-- Have a non-fzf version.
 - Proper install scripts.
