@@ -22,7 +22,7 @@ If you no longer need a particular warp point, run `warp remove foobar`. To "rem
 
 ## Installing
 
-Move `bin/warptool` to somewhere in your path. Then somehow insert the `warp` function in `src/warp.sh` into your `.bashrc`/`.zshrc`/whatever. The `warp` function relies on fzf. If you don't have fzf, install it! You're missing out!
+Move `bin/warptool` to somewhere in your path. Then somehow insert the `warp` function in `src/warp.sh` into your `.bashrc`/`.zshrc`/whatever. The `warp` function relies on fzf. If you don't have fzf, install it! You're missing out! However, if you do not want to install fzf for some reason, `warp` falls back to a simple input prompt.
 
 ## Todos:
 
